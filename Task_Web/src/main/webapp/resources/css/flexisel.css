@@ -1,0 +1,130 @@
+.clearout {
+    height: 20px;
+    clear: both;
+}
+
+#flexiselDemo3 {
+    display: none;
+    margin: 0 40px;
+}
+
+.nbs-flexisel-container {
+    position: relative;
+    max-width: 100%;
+	clear: both;
+}
+
+.nbs-flexisel-ul {
+    position: relative;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nbs-flexisel-inner {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+}
+
+.nbs-flexisel-item {
+    float: left;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    line-height: 0;
+}
+
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100px;
+    max-height: 45px;
+}
+
+.paris {
+    height: 70px;
+    width: 79px;
+    background: url(../img/partners_logos/05_paris.png) no-repeat 0 -70px;
+}
+
+.paris:hover, .ricco:hover, .slivki:hover, .chai:hover, .utkabar:hover,
+.ikra:hover, .orion:hover, .berlin:hover, .aroma:hover, .voshod:hover {
+    background-position: 0 0;
+}
+
+.ricco {
+    height: 70px;
+    width: 71px;
+    background: url(../img/partners_logos/12_ricco.png) no-repeat 0 -70px;
+}
+
+.utkabar {
+    background: url(../img/partners_logos/13_utkabar.png) no-repeat 0 -70px;
+    height: 70px;
+    width: 96px;
+}
+
+.ikra {
+    height: 70px;
+    width: 92px;
+    background: url(../img/partners_logos/06_ikra.png) no-repeat 0 -70px;
+}
+
+.slivki {
+    height: 70px;
+    width: 128px;
+    background: url(../img/partners_logos/09_slivki.png) no-repeat 0 -70px;
+}
+
+.chai {
+    background: url(../img/partners_logos/14_chainaya.png) no-repeat 0 -70px;
+    height: 70px;
+    width: 126px;
+}
+
+.voshod {
+    height: 70px;
+    width: 127px;
+    background: url(../img/partners_logos/11_voshod.png) no-repeat 0 -70px;
+}
+
+.berlin {
+    height: 70px;
+    width: 106px;
+    background: url(../img/partners_logos/10_berlin.png) no-repeat 0 -70px;
+}
+
+.aroma {
+    height: 70px;
+    width: 125px;
+    background: url(../img/partners_logos/aromateka.png) no-repeat 0 -70px;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 22px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-left {
+    left: 0;
+    background: url(../img/button-previous.png) no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    right: 0;
+    background: url(../img/button-next.png) no-repeat;
+}

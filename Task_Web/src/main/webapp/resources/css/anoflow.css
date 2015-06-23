@@ -1,0 +1,36 @@
+ul.images { width:324px; padding-left: 0px; } 
+			ul.images, 
+			ul.images li { display:block; }
+			ul.images li { width:150px; text-align:center; float:left; margin:0px 10px 12px 0px;-webkit-box-shadow: 1px 1px 2px 0px rgba(41,41,41,0.2);
+-moz-box-shadow: 1px 1px 2px 0px rgba(41,41,41,0.2); box-shadow: 1px 1px 2px 0px rgba(41,41,41,0.2); }
+			ul.images li img { margin:0px; width:100%; cursor:pointer; float:left; }
+
+
+/* anoFlow Css */
+.flow { position:absolute; margin-top:30px; width:300px; top:50%; left:50%; margin-left:-50px; z-index:9999; display:none; }
+.flow div { position:relative; }
+/*.flow .corner { width:10px; height:10px; position:absolute; top:0px; background:url(../img/sprite.c.png) 0 0px no-repeat; }*/
+.flow .top { height:10px; margin:0px 10px;}
+.flow .mid > div { padding:0px 10px; }
+.flow .mid > div > div { position:relative; background:#161717 url(../img/loader.gif) center center no-repeat; overflow:hidden;  color:#868686; line-height:16px; font-size:12px;
+border:20px solid white; border-bottom-width:80px;}
+.flow .mid > div > div img {  border: 0; -ms-interpolation-mode: bicubic; max-width: 100%;height: auto;width: auto; }
+.flow .bot { height:10px; margin:0px 10px 0px 10px; }
+.flow .bot .blc { left:0px; background-position:0px -10px; margin-left:-10px; }
+.flow .bot .brc { left:100%;  background-position:-10px -10px; margin-right:-10px; }
+.flow .top .tlc { left:0px; background-position:0px 0px; margin-left:-10px; }
+.flow .top .trc { left:100%;  background-position:-10px 0px; margin-right:-10px; }
+.flow .ribbon { position:absolute; bottom:60px; left:50%; margin-left:-100px; width:230px; height:38px; z-index:9999; }
+.flow .ribbon div { padding:15px; color:#818181; text-shadow:#000 -1px -1px; font-size:11px; font-family:MagistralC; }
+.flow .controls { position:absolute; bottom:0px; left:0px; width:100%; height:38px; z-index:9999;  }
+.flow .ui-flow-next, 
+.flow .ui-flow-prev, 
+.flow .ui-flow-close { display:block; width:78px; height:112px; position:absolute; top:50%; margin-top:-56px; z-index:9999; cursor:pointer; }
+.flow .ui-flow-next { background:url(../img/flow.sprite1.png) -78px 0px no-repeat; right:5px; }
+.flow .ui-flow-next:hover { background-position:-77px -113px;}
+.flow .ui-flow-next span { position:absolute; top:0px; left:0px; display:block; width:78px; height:112px; background:url(../img/flow.sprite1.png) -78px -112px no-repeat;  }
+.flow .ui-flow-prev:hover { background-position:-1px -113px;}
+.flow .ui-flow-prev { background:url(../img/flow.sprite1.png) 0px 0px no-repeat; left:5px; }
+.flow .ui-flow-prev span { position:absolute; top:0px; left:0px; display:block; width:78px; height:112px; background:url(../img/flow.sprite1.png) 0px -112px no-repeat; }
+.flow .ui-flow-close { background:url(../img/close1.png) 0 0 no-repeat; width:50px; height:50px; right:10px; top:10px;  margin:0px; }
+.flow .ui-flow-close:hover {background-position:-54px 0px;}

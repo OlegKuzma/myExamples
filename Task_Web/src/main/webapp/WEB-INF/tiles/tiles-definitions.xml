@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is configuration file a default template. It will be composed of a header and a footer.
+ 		The body will change on every pages, so it is not yet defined. Also in this file 
+ 		are defined library for js and css which must be connected -->
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  
+	<definition name="default.template" template="/WEB-INF/template/default/template.jsp">
+		<put-attribute name="header" value="/WEB-INF/template/default/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/template/default/footer.jsp" />
+		<put-list-attribute name="javascripts">
+			<add-attribute value="/resources/js/json2.js" />
+			<add-attribute value="/resources/js/jquery-2.1.0.min.js" />
+			<add-attribute value="/resources/js/jquery-ui-1.10.4.min.js" />
+			<add-attribute value="/resources/js/jquery.ui.widget.js" />
+			<add-attribute value="/resources/js/jquery.tmpl.min.js" />
+			<add-attribute value="/resources/js/bootstrap.min.js" />  
+			<add-attribute value="/resources/js/jssor.core.js" />
+			<add-attribute value="/resources/js/jssor.utils.js" />
+			<add-attribute value="/resources/js/jssor.slider.mini.js" />
+			<add-attribute value="/resources/js/jquery.selectBoxIt.min.js" />
+			<add-attribute value="/resources/js/jquery.flexisel.js" />
+			<add-attribute value="/resources/js/jquery.flexslider.js" />
+			<add-attribute value="/resources/js/jquery.cookie.js" />
+			<add-attribute value="/resources/js/flickerplate/modernizr-custom-v2.7.1.min.js" />
+			<add-attribute value="/resources/js/flickerplate/jquery-finger-v0.1.0.min.js" />
+			<add-attribute value="/resources/js/flickerplate/flickerplate.min.js" />
+			<add-attribute value="/resources/js/jquery.visible.min.js" />
+		</put-list-attribute>
+		<put-list-attribute name="stylesheets">
+	        <add-attribute value="/resources/css/bootstrap.min.css" />
+	        <add-attribute value="/resources/css/bootstrap-theme.min.css" />
+	        <add-attribute value="/resources/css/flags32.css" />
+	        <add-attribute value="/resources/css/jquery.selectBoxIt.css" />
+	        <add-attribute value="/resources/css/anoflow.css" />
+	        <add-attribute value="/resources/css/video-js.min.css" />
+	        <add-attribute value="/resources/css/flexisel.css" />
+	        <add-attribute value="/resources/css/flexslider.css" />
+	        <add-attribute value="/resources/css/flickerplate.css" />    
+	        <add-attribute value="/resources/css/core.css" />
+	    </put-list-attribute>    
+	</definition>
+  
+</tiles-definitions>
